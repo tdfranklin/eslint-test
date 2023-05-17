@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src", // allows absolute imports - https://www.typescriptlang.org/tsconfig#baseUrl
+  },
+  "extends": "../../tsconfig.json",
+  // "include": ["src"], // https://www.typescriptlang.org/tsconfig#type-include
+  "exclude": ["node_modules", "dist"] // https://www.typescriptlang.org/tsconfig#type-exclude
+}
