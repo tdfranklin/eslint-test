@@ -4,26 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "pnpm --filter @app/client run lint"
+    "lint": "pnpm --filter @app/client run lint",
+    "clean": "find ./ -name node_modules -type d -exec rm -rf {} +"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@eslint/js": "^8.40.0",
-    "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "@typescript-eslint/parser": "^5.53.0",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "globals": "^13.20.0",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
   }
