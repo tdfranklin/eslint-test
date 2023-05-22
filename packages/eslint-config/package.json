@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-trinity",
-  "main": "index.js",
+  "main": "oldConfig.cjs",
+  "type": "module",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
