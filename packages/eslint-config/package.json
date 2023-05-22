@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trinity",
-  "main": "oldConfig.cjs",
+  "main": "flatConfig.mjs",
   "type": "module",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",

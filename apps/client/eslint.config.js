@@ -1,3 +1,3 @@
-import rules from '@packages/sample-eslint-config'
+import rules from 'eslint-config-trinity'
 
 export default rules
